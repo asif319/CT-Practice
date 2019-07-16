@@ -1,0 +1,1 @@
+<?php $num1 = 30;$num2 = 20;if ($num1/2 == 0) {echo "Its Even";} elseif ($num2/2 == 1) {echo "Its Odd";} else {echo "Its something else";}?>

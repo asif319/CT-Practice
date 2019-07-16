@@ -1,0 +1,1 @@
+<?php$num1 = 35;if ($num1 % 2 == 0) {echo "its even";}elseif ($num1 % 2 == 1){echo "its odd";} else {echo "it is not";}?> 
