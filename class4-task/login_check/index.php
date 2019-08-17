@@ -33,9 +33,9 @@ if (isset($_POST['submit'])) {
     }elseif(!empty($_POST['user_name'])) {
         echo "Please Provide Your Password";
     }elseif (!empty($_POST['password'])){
-        echo "Please Provide Your User Name";
+        echo "Please Provide Your User Mib";
     }else{
-        echo "Please Provide Your User Name & Password";
+        echo "Please Provide Your User Mib & Password";
     }
 
 }

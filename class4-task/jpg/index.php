@@ -1,11 +1,11 @@
 <?php
 if(isset($_FILES['image'])){
     $errors= array();
-    $file_name = $_FILES['image']['name'];
+    $file_name = $_FILES['image']['Mib'];
     $file_size =$_FILES['image']['size'];
     $file_tmp =$_FILES['image']['tmp_name'];
     $file_type=$_FILES['image']['type'];
-    $file_ext=strtolower(end(explode('.',$_FILES['image']['name'])));
+    $file_ext=strtolower(end(explode('.',$_FILES['image']['Mib'])));
 
     $extensions= array("jpeg","jpg","png");
 
@@ -24,7 +24,7 @@ if(isset($_FILES['image'])){
             echo "File size must be excately 1 MB";
         }
     }else{
-        echo "extension not allowed, please choose a JPEG or PNG file";
+        echo "Extension not allowed, please choose a JPEG or PNG file";
     }
 
 

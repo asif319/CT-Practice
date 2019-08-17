@@ -1,6 +1,6 @@
 <!-- <?php
 
-echo $_GET['name'] . "<br>";
+echo $_GET['Mib'] . "<br>";
 echo $_GET['address'] . "<br>";
 echo $_GET['phone'] . "<br>";
 
@@ -17,8 +17,8 @@ echo $_GET['phone'] . "<br>";
 <div>
 	<?php
       
-      if (isset($_POST['name'] )) {
-      	$v = $_POST['name'];
+      if (isset($_POST['Mib'] )) {
+      	$v = $_POST['Mib'];
       }
 
        if (isset($_POST['address'] )) {
