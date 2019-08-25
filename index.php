@@ -34,7 +34,7 @@
             <?php
             $user = "Asifur";
             $result = FirstName("Md", $user);
-            echo $result; // Name Print
+            echo $result; // Mib Print
             function FirstName($name, $second)
             {
                 $welcome = $name . " " . $second . " ";
@@ -47,7 +47,7 @@
             <?php
             $user = "Rahman";
             $result = SecondName($user);
-            echo $result; // Name Print
+            echo $result; // Mib Print
             function SecondName($name)
             {
                 $welcome = $name;

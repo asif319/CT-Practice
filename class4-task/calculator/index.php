@@ -14,10 +14,10 @@
 
     <input type="number" name="num2">
 
-    <input type="submit" name="addition" value="Add">
-    <input type="submit" name="sub" value="Subtract">
-    <input type="submit" name="multi" value="Multiply">
-    <input type="submit" name="div" value="Division">
+    <input type="submit" name="addition" value="+">
+    <input type="submit" name="sub" value="-">
+    <input type="submit" name="multi" value="x">
+    <input type="submit" name="div" value="/">
 
 
 </form>
