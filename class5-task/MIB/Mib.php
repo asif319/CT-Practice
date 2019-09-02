@@ -50,6 +50,7 @@ private $mibVillain = "Boris";
 
     }
 
+<<<<<<< HEAD
     public static function Bumbaa(){
         echo "Bumbaaaa <br>";
     }
@@ -60,6 +61,8 @@ private $mibVillain = "Boris";
 
 
 
+=======
+>>>>>>> b83248226c5e3c0b11f4712a936417d870e6aab0
 
 
 

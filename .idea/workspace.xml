@@ -9,6 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <splitter split-orientation="horizontal" split-proportion="0.28216705">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -17,6 +18,16 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="51">
                   <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+=======
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/class5-task/MIB/Mib.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="172">
+                  <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+>>>>>>> b83248226c5e3c0b11f4712a936417d870e6aab0
                 </state>
               </provider>
             </entry>
@@ -24,6 +35,7 @@
         </leaf>
       </split-first>
       <split-second>
+<<<<<<< HEAD
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/class6-task/task-4/Avenger.php">
@@ -66,6 +78,14 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="561">
                   <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+=======
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/class5-task/MIB/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+>>>>>>> b83248226c5e3c0b11f4712a936417d870e6aab0
                 </state>
               </provider>
             </entry>
@@ -86,6 +106,7 @@
         <option value="$PROJECT_DIR$/class5-task/Setter getter/Key.php" />
         <option value="$PROJECT_DIR$/class5-task/MIB/Mib.php" />
         <option value="$PROJECT_DIR$/class5-task/MIB/index.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/class6-task/task-1/index.php" />
         <option value="$PROJECT_DIR$/class6-task/task-1/Car.php" />
         <option value="$PROJECT_DIR$/class6-task/task-1/Audi.php" />
@@ -103,14 +124,22 @@
         <option value="$PROJECT_DIR$/class6-task/task-4/CaptainAmerica.php" />
         <option value="$PROJECT_DIR$/class6-task/task-4/Ironman.php" />
         <option value="$PROJECT_DIR$/class6-task/task-4/Loki.php" />
+=======
+>>>>>>> b83248226c5e3c0b11f4712a936417d870e6aab0
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-98" />
     <option name="y" value="40" />
     <option name="width" value="1367" />
     <option name="height" value="730" />
+=======
+    <option name="x" value="16" />
+    <option name="width" value="1366" />
+    <option name="height" value="731" />
+>>>>>>> b83248226c5e3c0b11f4712a936417d870e6aab0
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -118,7 +147,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> b83248226c5e3c0b11f4712a936417d870e6aab0
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,22 +161,38 @@
             <path>
               <item name="coderstrust" type="b2602c69:ProjectViewProjectNode" />
               <item name="coderstrust" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="class6-task" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="class5-task" type="462c0819:PsiDirectoryNode" />
+>>>>>>> b83248226c5e3c0b11f4712a936417d870e6aab0
             </path>
             <path>
               <item name="coderstrust" type="b2602c69:ProjectViewProjectNode" />
               <item name="coderstrust" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="class6-task" type="462c0819:PsiDirectoryNode" />
               <item name="task-4" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="class5-task" type="462c0819:PsiDirectoryNode" />
+              <item name="MIB" type="462c0819:PsiDirectoryNode" />
+>>>>>>> b83248226c5e3c0b11f4712a936417d870e6aab0
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+=======
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+>>>>>>> b83248226c5e3c0b11f4712a936417d870e6aab0
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -173,13 +221,17 @@
       <option name="presentableId" value="Default" />
       <updated>1564900753377</updated>
       <workItem from="1564900754619" duration="5417000" />
+<<<<<<< HEAD
       <workItem from="1566394376033" duration="2071000" />
       <workItem from="1566583401460" duration="3404000" />
       <workItem from="1566754862094" duration="2316000" />
+=======
+>>>>>>> b83248226c5e3c0b11f4712a936417d870e6aab0
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="17414000" />
   </component>
   <component name="ToolWindowManager">
@@ -188,6 +240,22 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10805369" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+=======
+    <option name="totallyTimeSpent" value="5417000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14220877" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+>>>>>>> b83248226c5e3c0b11f4712a936417d870e6aab0
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -195,6 +263,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
@@ -226,6 +295,13 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout-to-restore>
+=======
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+>>>>>>> b83248226c5e3c0b11f4712a936417d870e6aab0
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -273,6 +349,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/class5-task/MIB/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -407,6 +484,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+=======
+    <entry file="file://$PROJECT_DIR$/class5-task/MIB/Mib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class5-task/MIB/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+>>>>>>> b83248226c5e3c0b11f4712a936417d870e6aab0
         </state>
       </provider>
     </entry>

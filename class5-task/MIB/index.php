@@ -12,6 +12,7 @@ $name->SetHeroine("Jorina");
 
 echo $name->GetHeroine() . "<br>";
 
+<<<<<<< HEAD
 $name->SetVillain("Misha") ;
 
 echo $name->GetVillain() . "<br>";
@@ -19,4 +20,9 @@ echo $name->GetVillain() . "<br>";
 Mib::Bumbaa();
 
 Mib::Bumbaa2();
+=======
+$name->SetVillain("Misha");
+
+echo $name->GetVillain();
+>>>>>>> b83248226c5e3c0b11f4712a936417d870e6aab0
 ?>
