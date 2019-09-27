@@ -3,13 +3,15 @@ $pdo = new PDO("mysql:host=localhost;dbname=class-7", "root", "");
 
 
 $id = $_GET['id'];
-//Show Data (Read)
 
+//Show Data (Read)
 $getSql = "SELECT * FROM mobiles WHERE id=$id";
 $getStatement = $pdo->prepare($getSql);
 $getStatement->execute();
 $results = $getStatement->fetchAll();
+//End show data
 
+//Update
 if (isset($_POST['submit'])){
 
     $brand = $_POST['brand'];
@@ -23,6 +25,7 @@ if (isset($_POST['submit'])){
     $delStatement->execute();
     header("location:index.php");
 }
+//End update
 ?>
 
 <!doctype html>

@@ -2,8 +2,8 @@
 
 $pdo = new PDO("mysql:host=localhost;dbname=class-7", "root", "");
 
-//Insert data (Create)
 
+//Delete
 if (isset($_GET['delete'])) {
 
     $id = $_GET['delete'];
@@ -14,6 +14,8 @@ if (isset($_GET['delete'])) {
     $delStatement->execute();
     header("location:index.php");
 }
+
+//Insert data (Create)
 
 if (isset($_POST['submit'])){
 
@@ -76,13 +78,13 @@ $results = $getStatement->fetchAll();
     </tr>
 
     <?php foreach ($results as $result) {?>
-    <tr>
-        <td><?php echo $result['brand']?></td>
-        <td><?php echo $result['price']?></td>
-        <td><?php echo $result['ram']?></td>
-        <td><?php echo $result['camera']?></td>
-        <td><a href="update.php?id= <?php echo $result['id']; ?>">Update</a>| <a href="?delete= <?php echo $result['id']?>">Delete</a></td>
-    </tr>
+        <tr>
+            <td><?php echo $result['brand']?></td>
+            <td><?php echo $result['price']?></td>
+            <td><?php echo $result['ram']?></td>
+            <td><?php echo $result['camera']?></td>
+            <td><a href="update.php?id= <?php echo $result['id']; ?>">Update</a>| <a href="?delete= <?php echo $result['id']?>">Delete</a></td>
+        </tr>
     <?php  }?>
 </table>
 </body>
