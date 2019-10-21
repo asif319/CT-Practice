@@ -7,7 +7,11 @@
     <file url="file://$PROJECT_DIR$/../Guestbook/post_added.php" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/../Guestbook/post_deleted.php" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/../Guestbook/post_updated.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/../Guestbook/reply_added.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/../Guestbook/reply_deleted.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/../Guestbook/reply_updated.php" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/../Guestbook/update_post.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/../Guestbook/update_reply.php" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Class8-task/Login_System/Connection.php" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Class8-task/Login_System/reg_update.php" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Class8-task/Login_System/registration.php" dialect="GenericSQL" />
