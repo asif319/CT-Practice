@@ -25,7 +25,7 @@
 //});
 Route::get('/', 'PayementController@payementPage')->middleware('checkDaroan');
 Route::get('/payment/get', 'PayementController@payementGet');
-Route::get('/payment/post', 'PayementController@payementPost');
+Route::post('/payment/post', 'PayementController@payementPost');
 
 Route::get('/profile', 'JournalController@journalPage');
 Route::get('/profile/getData', 'JournalController@journalGet');
