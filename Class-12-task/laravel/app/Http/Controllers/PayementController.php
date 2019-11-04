@@ -57,18 +57,39 @@ class PayementController extends Controller
         return view('update', compact('data'));
     }
 
-    public function update($id){
+    public function update($id, Request $request){
+
         $this->validate(request(),[
             'name' => 'required',
             'task' => 'required'
         ]);
 
-        Task::find($id)->update([
-            'name' => request('name'),
-            'task' => request('task')
-        ]);
+        if ($request->hasFile('image'))
+        {
+            $img = uniqid().'.jpg';
+            $request->image->move('photos', $img);
 
-        return redirect('about')->with('updateSuccess', 'Updated Successfully');
+            Task::find($id)->update([
+                'name' => request('name'),
+                'task' => request('task'),
+                'image' => $img
+            ]);
+
+            return redirect('about');
+
+        }else
+        {
+            Task::find($id)->update([
+                'name' => request('name'),
+                'task' => request('task')
+            ]);
+
+            return redirect('about')->with('updateSuccess', 'Updated Successfully');
+        }
+
+
+
+       // return redirect('about')->with('updateSuccess', 'Updated Successfully');
     }
 
     public function delete($id){
