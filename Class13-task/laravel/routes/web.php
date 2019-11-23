@@ -1,12 +1,5 @@
 <?php
 
-
-
-
-
-
-;
-
 Route::group(['middleware' => 'checkDaroan'], function (){
     Route::get('/', 'FormController@payementPage');
     Route::get('/payment/get', 'FormController@payementGet');
@@ -24,6 +17,12 @@ Route::post('/register', 'RegisterController@register')->name('user.register');
 Route::get('/login', 'LoginController@show')->name('user.login.show');
 Route::post('/login', 'LoginController@login')->name('user.login');
 
+
+//Admin routes
+Route::get('/admin/login', 'AdminController@index')->name('admin.login.show');
+Route::post('/admin/login', 'AdminController@login')->name('admin.login');
+Route::get('/logout', 'AdminController@logout');
+Route::get('/admin/dashboard', 'AdminController@dashboard')->name('admin.dashboard')->middleware('adminCheck');
 
 
 

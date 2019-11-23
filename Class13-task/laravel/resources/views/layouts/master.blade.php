@@ -12,11 +12,11 @@
 
     <!-- Bootstrap core CSS -->
 {{--    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">--}}
-    <link rel="stylesheet" href="{{ 'css/bootstrap.min.css' }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 
     <!-- Custom styles for this template -->
 {{--    <link href="css/small-business.css" rel="stylesheet">--}}
-    <link rel="stylesheet" href="{{ 'css/small-business.css' }}">
+    <link rel="stylesheet" href="{{ asset('css/small-business.css') }}">
     @stack('bottom')
 
 </head>
